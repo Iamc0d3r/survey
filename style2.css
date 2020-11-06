@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  margin: auto auto;
+  font-family: "Courier New", Courier, monospace;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+.text-center {
+  text-align: center;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-set {
+  margin: 10px;
+}
+label {
+  font-size: 20px;
+  padding-left: 10px;
+}
+textarea {
+  width: 400px;
+  height: 100px;
+}
+#dropdown {
+  width: 50%;
+}
+#submit {
+  color: black;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+#submit:hover {
+  color: white;
+  background-color: gray;
+  transition: 0.6s;
+}
